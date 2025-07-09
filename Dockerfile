@@ -11,7 +11,7 @@ COPY Backend/store-backend/requirements.txt /app/
 
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-COPY . /app/
+COPY Backend/store-backend/ /app/
 
 COPY Backend/store-backend/entrypoint.sh /app/
 
