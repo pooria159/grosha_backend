@@ -40,6 +40,10 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    'http://grosha.ir',
+    'https://grosh.ir',
+    'http://www.grosha.ir',
+    'https://www.grosh.ir',
 ]
 
 
